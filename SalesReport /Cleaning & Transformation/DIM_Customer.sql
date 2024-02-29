@@ -10,7 +10,7 @@ SELECT [CustomerKey]
 		WHEN 'F' THEN 'Female'
 		END AS Gender
       ,[DateFirstPurchase]
-	  ,City AS [Customer City]
+      ,City AS [Customer City] -- Joined from DIMGeography Table to get the Customer based City
 FROM 
 	[dbo].[DimCustomer] AS c
 	LEFT JOIN dbo.DimGeography AS g ON g.GeographyKey = c.GeographyKey
