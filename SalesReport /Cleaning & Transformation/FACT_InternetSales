@@ -1,0 +1,15 @@
+-- Cleansed FACT_InternetSales Table
+-- Removed the unecessary columns that are not required for the report.
+-- Transformed the data columns (Renaming the column name)
+SELECT [ProductKey]
+      ,[OrderDateKey]
+      ,[DueDateKey]
+      ,[ShipDateKey]
+      ,[CustomerKey]
+      ,[SalesOrderNumber]
+      ,[SalesAmount]
+FROM [dbo].[FactInternetSales]
+WHERE
+	LEFT(OrderDateKey, 4) >= 2018 -- To ensure that we only get the data from 2018 and above
+ORDER BY
+	OrderDateKey ASC
