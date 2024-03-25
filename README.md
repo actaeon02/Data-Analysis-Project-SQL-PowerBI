@@ -12,6 +12,10 @@ This repository contains a variety of projects designed to highlight skills in d
 - Dive into insightful visualizations showcasing data analysis skills
 - Learn efficient database querying techniques using SQL
 
+## Project Link
+
+1. [SalesReport - AdventureWorks Dataset](https://app.powerbi.com/groups/me/reports/d7f6c2bc-4272-4bbd-a394-ed2389823d2a/ReportSection?experience=power-bi)
+
 ## Usage
 
 To explore the projects, simply navigate to the respective project folders. Each project folder contains detailed documentation and instructions for running and exploring the project.
