@@ -15,6 +15,7 @@ This repository contains a variety of projects designed to highlight skills in d
 ## Project Link
 
 1. [SalesReport - AdventureWorks Dataset](https://app.powerbi.com/groups/me/reports/d7f6c2bc-4272-4bbd-a394-ed2389823d2a/ReportSection?experience=power-bi)
+2. [Call Centre - KPI (PwC)](https://app.powerbi.com/groups/me/reports/66e76153-9a11-4fa9-8dd6-b8a532c39850/ReportSection?experience=power-bi)
 
 ## Usage
 
